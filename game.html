@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.css" />
+    <title>Game</title>
+  </head>
+  <body>
+    <div class="score-board">
+      <span class="player-score">0</span>-<span class="computer-score">0</span>
+    </div>
+    <div class="main-container">
+      <div class="player-area">
+        <img id="player-hand" src="" alt="" />
+        <div class="choices">
+          <img src="assets/rock-logo.png" alt="rock" />
+          <img src="assets/paper-logo.png" alt="paper" />
+          <img src="assets/scissors-logo.png" alt="scissors" />
+        </div>
+      </div>
+      <img src="assets/vs.png" alt="vs" />
+      <div class="computer-area">
+        <img id="computer-hand" alt="" />
+      </div>
+    </div>
+    <div class="restart">
+      <h3>You won the game</h3>
+      <div class="restart-button">Play Again</div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
